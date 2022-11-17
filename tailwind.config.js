@@ -42,6 +42,9 @@ module.exports = {
             addUtilities({
                 ".polygon": {
                     "clip-path": "polygon(63.5% 0%, 91.1% 30.5%, 93.1% 67.8%, 67.2% 100%, 20.8% 94.3%, 9.7% 55.5%, 23.9% 15.5%);"
+                },
+                ".slider-vertical": {
+                    appearance: " slider-vertical"
                 }
             });
         })

@@ -1,9 +1,6 @@
-import React, { EventHandler, FocusEventHandler, useRef, useState } from "react";
+import React from "react";
 import Head from "next/head";
-import clsx from "clsx";
-import GoogleIcon from "@mui/icons-material/Google";
-import AppleIcon from "@mui/icons-material/Apple";
-import GitHubIcon from "@mui/icons-material/GitHub";
+import { FaApple, FaGoogle, FaGithub } from "react-icons/fa";
 import Wrapper from "../../components/Wrapper";
 import InputField from "../../components/InputField";
 import Page from "../../components/Page";
@@ -34,19 +31,19 @@ const Day001 = () => {
                     <div className="flex flex-col justify-center items-center m-4">
                         <div>
                             <button className=" w-48 md:w-60 gap-2 flex justify-center items-center m-4 p-3 rounded-md pointer transition-transform outline-0 bg-brand-7 hover:-translate-y-1 hover:shadow-md">
-                                <GoogleIcon />
+                                <FaGoogle />
                                 Google
                             </button>
                         </div>
                         <div>
                             <button className=" w-48 md:w-60 gap-2 flex justify-center items-center m-4 p-3 rounded-md pointer transition-transform outline-0 bg-brand-7 hover:-translate-y-1 hover:shadow-md">
-                                <AppleIcon />
+                                <FaApple />
                                 Apple
                             </button>
                         </div>
                         <div>
                             <button className=" w-48 md:w-60 gap-2 flex justify-center items-center m-4 p-3 rounded-md pointer transition-transform outline-0 bg-brand-7 hover:-translate-y-1 hover:shadow-md">
-                                <GitHubIcon />
+                                <FaGithub />
                                 GitHub
                             </button>
                         </div>
