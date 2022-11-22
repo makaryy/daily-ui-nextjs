@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Divider from "../components/Divider";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import { MdKeyboardArrowDown } from "react-icons/md";
 import { Link as Scroll } from "react-scroll";
 import Slider from "../components/Slider";
 import clsx from "clsx";
@@ -26,7 +26,7 @@ export default function Home() {
                 </main>
                 <Scroll to="slider" smooth={true}>
                     <button className="hover:bg-white hover:bg-opacity-20 rounded-full transition-all active:bg-opacity-30 m-8">
-                        <KeyboardArrowDownIcon className="w-24 h-24 border-2 rounded-full" />
+                        <MdKeyboardArrowDown className="w-24 h-24 border-2 rounded-full" />
                     </button>
                 </Scroll>
                 <div id="slider" className="h-screen flex items-center">

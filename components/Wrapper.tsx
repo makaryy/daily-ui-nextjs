@@ -10,7 +10,7 @@ const Wrapper = ({ children, className }: Props) => {
     return (
         <main
             className={clsx(
-                "flex flex-col justify-center items-center h-fit w-fit rounded-2xl bg-opacity-40 bg-brand-3 backdrop-blur-sm border border-brand-3 p-2 m-2",
+                "flex flex-col justify-center items-center h-fit w-fit rounded-2xl bg-opacity-40 bg-brand-3 backdrop-blur-sm border border-brand-3 p-2 m-4 container",
                 className
             )}>
             {children}
