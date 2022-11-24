@@ -17,12 +17,17 @@ const Day001 = () => {
                     <form action="" className="md:w-[400px] w-72">
                         <div className="flex flex-col justify-center items-center p-4">
                             <h1 className="text-4xl mb-4">Sign Up</h1>
-                            <InputField type="email" placeholder="E-mail" className="w-60" />
-                            <InputField type="password" placeholder="Password" className="w-60" />
+                            <InputField type="email" placeholder="E-mail" className="w-60 m-4" />
+                            <InputField
+                                type="password"
+                                placeholder="Password"
+                                className="w-60 m-4"
+                            />
 
                             <button
                                 type="submit"
-                                className="m-4 p-3 rounded-md pointer transition-transform outline-0 bg-brand-7 hover:-translate-y-1 hover:shadow-md">
+                                className="m-4 p-3 rounded-md pointer transition-transform outline-0 bg-brand-7 hover:-translate-y-1 hover:shadow-md"
+                            >
                                 Sign Up
                             </button>
                         </div>
