@@ -36,7 +36,7 @@ const Day011 = () => {
 
                     <div
                         className={clsx(
-                            "flex justify-center gap-4 text-lg items-center border-4 text-green-800 font-bold bg-green-800 bg-opacity-30 border-green-800 rounded-md p-2 m-4  shadow-[4px_4px] shadow-green-800 text-center transition-all",
+                            "flex justify-center gap-4 text-lg items-center border-4 text-green-900 font-bold bg-green-800 bg-opacity-50 border-green-800 rounded-md p-2 m-4  shadow-[4px_4px] shadow-green-800 text-center transition-all",
                             isSuccessVisible ? "opacity-100" : "opacity-0"
                         )}>
                         <MdTaskAlt className="text-2xl" />
@@ -44,7 +44,7 @@ const Day011 = () => {
                     </div>
                     <div
                         className={clsx(
-                            "flex justify-center gap-4 text-lg items-center border-4 text-red-800 font-bold bg-red-800 bg-opacity-30 border-red-800 rounded-md p-2 m-4  shadow-[4px_4px] shadow-red-800 text-center transition-all",
+                            "flex justify-center gap-4 text-lg items-center border-4 text-red-900 font-bold bg-red-800 bg-opacity-50 border-red-800 rounded-md p-2 m-4  shadow-[4px_4px] shadow-red-800 text-center transition-all",
                             isErrorVisible ? "opacity-100" : "opacity-0"
                         )}>
                         <MdErrorOutline className="text-2xl" />
@@ -52,7 +52,7 @@ const Day011 = () => {
                     </div>
                     <div
                         className={clsx(
-                            "flex justify-center gap-4 text-lg items-center border-4 text-yellow-700 font-bold bg-yellow-700 bg-opacity-30 border-yellow-700 rounded-md p-2 m-4  shadow-[4px_4px] shadow-yellow-700 text-center transition-all",
+                            "flex justify-center gap-4 text-lg items-center border-4 text-yellow-900 font-bold bg-yellow-700 bg-opacity-50 border-yellow-700 rounded-md p-2 m-4  shadow-[4px_4px] shadow-yellow-700 text-center transition-all",
                             isWarningVisible ? "opacity-100" : "opacity-0"
                         )}>
                         <MdWarningAmber className="text-2xl" />

@@ -4,7 +4,6 @@ interface Props {
     children: ReactNode[] | ReactNode;
 }
 
-// TODO: MAKE IT A LINK TO A PAGE
 const CardFooter = ({ children }: Props) => {
     return <div className={clsx("flex justify-center items-center m-4 text-sm text-center")}>{children}</div>;
 };
